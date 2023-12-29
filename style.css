@@ -171,19 +171,24 @@ header {
 .portfolio-item {
     width: 100%;
     margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
 }
 
+.imagezoom{
+    position: relative;
+    overflow: hidden;   
+}
 
 .portfolio-item img {
     width: 300px;
     height: auto;
     border-radius: 8px;
+}
+
+.imagezoom img{
     transition: transform 0.3s ease;
 }
 
-.portfolio-item:hover img{
+.imagezoom:hover img{
     transform: scale(1.2);
 }
 
